@@ -17,7 +17,7 @@ else:
 genai.configure(api_key=api_key)
 
 # 3. Load the AI Model (Gemini 1.5 Flash is the fastest free one)
-model = genai.GenerativeModel('gemini-1.5-flash-latest')
+model = genai.GenerativeModel('gemini-pro')
 
 # 4. Initialize Chat History
 if "messages" not in st.session_state:
